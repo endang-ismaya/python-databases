@@ -2,7 +2,7 @@ import sqlalchemy as sal
 
 # create engine & connection
 engine = sal.create_engine("sqlite:///databases/hr.db")
-# conn = engine.connect()
+
 
 # create meta data and Table employees
 meta_data = sal.MetaData()
